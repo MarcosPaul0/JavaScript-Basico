@@ -1,0 +1,17 @@
+function ação(parâmetro(s)) {  --> É possível atribuir valores antecipados aos parâmetros
+
+    return resultado;
+}
+
+ação(7)  -->  Chama a função sem necessitar de uma ação do usuário. 
+
+
+-=- RECURSIVIDADE -=- A função executa ela mesma até um certo estado -=-
+
+function fatorial(num) {
+    if (num == 1) {
+        return 0
+    } else {
+        return num * fatorial(num - 1)
+    }
+}

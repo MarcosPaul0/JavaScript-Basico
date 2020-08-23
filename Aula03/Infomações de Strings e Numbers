@@ -1,0 +1,21 @@
+Existem duas formas para concatenação de textos
+
+1ª Forma utilizando o +
+    ('texto texto' + variável + 'texto');
+    
+2ª Forma utilizando TamplatesStrings
+    (`texto texto $(variável) texto`);
+
+Formatando Strings
+
+var texto = 'JavaScript'
+texto.length           --> Quantos caracteres a string tem
+texto.toUpperCase()   --> Tudo para letras 'MAIÚSCULAS'
+texto.toLowerCase()   --> Tudo para letras 'minúsculas'
+
+Formatando Numbers
+
+var num = 1546.7
+num.toFixed(0)                                                       --> Para fixar o número de casas decimais
+num.toFixed(2).replace('.', ',')                                     --> Para trocar o . pela ,
+num.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})    --> Para transformar na moeda desejada Ex: BRL, USD, EUR

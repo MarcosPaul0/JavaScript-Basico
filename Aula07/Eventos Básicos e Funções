@@ -1,0 +1,14 @@
+Eventos DOM
+
+<div>
+    mouseenter --> o mouse entra na div
+    mousemove  --> movimentação do mouse dentro da div
+    mousedown  --> clicar e segurar
+    moouseup   --> soltar o botão do mouse
+    click      --> clicar
+    mouseout   --> mouse fora da div
+    entre outros... procure em (JavaScript events DOM list)
+
+Função é uma conjunto de códigos que serão executadas quando um evento ocorrer
+
+function ação(parâmetros) {bloco}

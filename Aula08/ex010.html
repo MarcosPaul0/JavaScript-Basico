@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETRAN</title>
+    <style>
+        body {
+            background-color: rgb(137, 137, 240);
+            font: normal 18pt Arial;
+            text-align: center;
+        }
+        input {
+            width: 60px;
+        }
+        input#botao {
+            height: 40px;
+            font: normal 10pt Arial;
+            transition: all 0.3s;
+        }
+        input#botao:hover {
+            height: 50px;
+            width: 80px;
+            background-color: rgb(41, 41, 129);
+            color: white;
+            font-size: 11pt;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sisteams de Multas</h1>
+    Velocidade da Via: <input type="number" name="txtvia" id="txtvia"> Km/h</br></br>
+    Velocidade do Altomóvel: <input type="number" name="txtaut" id="txtaut"> Km/h</br></br>
+    <input type="button" value="verificar" name="botao" id="botao">
+    <div id="resultado"></div>
+    <script>
+        botao.addEventListener('click', calcular);
+
+        function calcular() {
+            var botao = document.getElementById('botao');
+            var velvia = Number(document.getElementById('txtvia').value);
+            var velaut = Number(document.getElementById('txtaut').value);
+            var resultado = document.getElementById('resultado');
+            var ecxesso = velaut - velvia;
+
+            if (velaut > velvia) {
+                resultado.innerHTML = `<p></br>Velocidade da via foi ultrapaçada em <strong>${ecxesso} Km/h</strong>, MULTADO!</p>`;
+                resultado.style.color = 'red';
+            } else {
+                resultado.innerHTML = '<p>Velocidade dentro do limite.</p>';
+                resultado.style.color = 'yellow';
+            }
+        }
+    </script>
+</body>
+</html>

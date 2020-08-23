@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Programa</title>
+    <style>
+        body {
+            background-color: rgb(80, 80, 175);
+            color: white;
+            font: normal 25pt Arial;
+            text-align: center;
+        }
+        h1 {
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Já me livre da maldição.</p>
+    <script>
+        var n1 = Number.parseFloat(window.prompt('Digite um número inteiro:'));       //O comando prompt registra somente em string
+        var n2 = Number(window.prompt('Digite outro número inteiro:'));              //O comando Number transforma uma srting em um Number
+        var soma = n1 + n2;                                                         //Para converter um Number para string usa String(var)
+        window.alert('A soma dos números deu ' + String(soma));                    
+    </script>
+</body>
+</html>

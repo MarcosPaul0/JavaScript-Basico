@@ -1,0 +1,47 @@
+body {
+    font: normal 18pt Arial;
+    text-align: center;
+    background-color: rgb(101, 187, 144);
+}
+
+section {
+    font-size: 15pt;
+    text-align: justify;
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.781);
+}
+
+p {
+    margin-left: 10px;
+}
+
+div#sequencia {
+    margin-left: 10px;
+}
+
+p#botao {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: -107px;
+}
+
+input {
+    width: 100px;
+}
+
+input#contar {
+    height: 70px;
+    width: 80px;
+    border-radius: 100px;
+    font: normal 15pt Arial;
+    border: solid 1px;
+}
+
+footer {
+    margin-top: 15px;
+    font-style: italic;
+}

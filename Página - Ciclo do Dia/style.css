@@ -1,0 +1,22 @@
+body {
+    font: normal 18pt Arial;
+    text-align: center;
+}
+
+section {
+    padding: 5px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.596);
+    border-radius: 50px;
+    background-color: white;
+}
+
+img#img {
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    font-style: italic;
+}

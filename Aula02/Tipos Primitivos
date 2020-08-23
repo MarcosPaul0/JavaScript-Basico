@@ -1,0 +1,24 @@
+Para declarar uma variável é usando a sintaxe:
+
+var nome_variável
+let nome_variável
+const nome_variável
+
+Os tipos primitivos de JavaScript são:
+
+number
+    Infinity
+    NaN
+string
+boolean
+null
+undefined
+object
+    Array
+function
+
+Comentários em:
+
+HTML - <!-- Comentários --!>
+CSS - /* Comentários */
+JavaScript - // Comentários para uma linha || /* Comentários para mais de uma linha */

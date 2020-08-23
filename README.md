@@ -1,2 +1,2 @@
 # JavaScript-Básico
- Anotações e exrcícios básicos de JavaScript.
+ Anotações e exercícios básicos de JavaScript.

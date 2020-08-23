@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(106, 58, 110);
+    color: white;
+    text-align: center;
+    font: normal 18pt Arial;
+}
+
+section {
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+    padding: 10px;
+    margin: auto;
+    width: 600px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.822);
+}
+
+input#numero {
+    border: solid 1px;
+    border-radius: 20px;
+}
+
+input#botao {
+    height: 50px;
+    font: normal 12pt Arial;
+    border-radius: 20px;
+    border: solid 1px;
+}
+
+input#botaoResetar {
+    height: 50px;
+    width: 80px;
+    font: normal 12pt Arial;
+    border-radius: 20px;
+    border: solid 1px;
+    margin-left: 20px;
+}
+
+footer {
+    margin-top: 20px;
+}

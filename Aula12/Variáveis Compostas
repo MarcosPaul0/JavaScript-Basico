@@ -1,0 +1,22 @@
+Permite armazenar mais de um valor em uma variável
+
+var -|
+     |- numero = []
+let -|
+
+Para acrescentar um valor em um Array:
+
+let num = [5, 8, 4]
+
+num[3] = 6     -->   Adiciona o valor na posição indicada
+num.push(7)    -->   Adiciona o valor na última posição
+num.length     -->   Retorna o número de elementos do Array
+num.sort()     -->   Coloca números em ordem crescente
+num.indexOf(7) -->   Retorna a posição do valor indicado
+
+
+Maneira simplificada de exibir os valores de um Array com formatação:
+
+for (let posição in numero) {
+    console.log(numero[posição]);
+}

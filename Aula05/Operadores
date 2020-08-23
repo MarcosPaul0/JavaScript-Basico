@@ -1,0 +1,23 @@
+Tipos de operadores JavaScript 2/2
+                                                                                 _
+Relacionais                                                          Precedência | ()  **  /   ...
+    >     --> maior           |    5 > 2    --> true                             | >   <   >=  ...
+    <     --> menor           |    7 < 4    --> false                            | !
+    >=    --> maior igual     |    8 >= 8   --> true                             | &&
+    <=    --> menor igual     |    9 <= 7   --> false                            | ||
+    ==    --> igual           |    5 == 5   --> true
+    !=    --> diferente       |    4 != 4   --> false
+    Identidade
+    ==    --> igual           |    5 == 5      --> true
+                              |    5 == '5'    --> true
+    ===   --> idêntico        |    5 === '5'   --> false
+                              |    5 === 5     --> true
+
+Lógicos
+    !     --> negação
+    &&    --> conjunção (e)
+    ||    --> disjunção (ou)
+
+Ternário
+    teste ? true : false
+    média >= 7.0 ? "Aprovado" : "Reprovado"

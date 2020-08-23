@@ -1,0 +1,34 @@
+D  -->  Document    | Conjunto de documentos dentro  |
+O  -->  Object      | do navegador que dá acesso aos |
+M  -->  Model       | componentes internos do site.  |
+
+
+Árvore DOM
+    window
+        location
+        document
+            html
+                head
+                    meta
+                    title
+                body
+                    h1
+                    p
+                    p
+                        strong
+                    div
+        history
+
+
+Métodos de acesso: Selecionando
+    por Marca
+        getElementsByTagName()
+    por ID
+        getElementById()
+    por Nome
+        getElementsByName()
+    por Classe
+        getElementsByClassName()
+    por Seletor
+        querySelector()
+        querySelectorAll()

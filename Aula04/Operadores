@@ -1,0 +1,24 @@
+Tipos de operadores JavaScript 1/2
+
+Aritméticos
+    +    -->   soma
+    -    -->   subtração
+    *    -->   multiplicação
+    /    -->   divisão
+    %    -->   resto de uma divisão inteira
+    **   -->   exponenciação
+    Ordem de precedência
+    1º  ()
+    2º  **
+    3º  *  /  %
+    4º  +  -
+
+Atribuição
+    Atribuição Simples
+        var numero_0 = 5                              | 5
+        var numero_1 = 2 + numero_0                   | 7
+        var numero_2 = numero_1 ** 2 + 8 * numero_0   | 89
+    Auto-Atribuição
+        numero_0 += 9                                 | 14
+    Incremento
+        numero_0++                                    | 6

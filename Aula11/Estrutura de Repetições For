@@ -1,0 +1,12 @@
+Repetição com Intervalo Definido
+
+    for (inicio; teste; incremento) {
+        bloco
+    }
+
+
+Modo depuração serve para testar os códigos e ver a funcionalidade deles
+    Para executa-lo é só ir em Debug
+
+Site com lista de emojis
+    https://unicode.org/emoji/charts/full-emoji-list.html

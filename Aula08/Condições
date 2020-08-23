@@ -1,0 +1,51 @@
+Condições em JavaScript
+
+if (condição) {
+    true
+} else {
+    false
+}
+
+Tipos de Condições
+    
+    Condições Simples
+        if (condição) {
+            bloco
+        }
+
+    Condições Composta
+        if (condição) {
+            bloco_1
+        } else if {
+            bloco_2
+        } else {
+
+        }
+
+    Condições Aninhadas
+        if (condição) {
+            if (condição) {
+                bloco_1
+            } else (condição) {
+                bloco_2
+            }
+        } else {
+            bloco_3
+        }
+
+    Condição Múltiplas
+        switch (expressão) {
+            case valor1:
+                bloco_1
+                break;
+            case valor2:
+                bloco_2
+                break;
+            case valor3:
+                bloco_3
+                break;
+            default:
+                bloco_4
+                break;
+        }
+    

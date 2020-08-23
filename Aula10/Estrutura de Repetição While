@@ -1,0 +1,11 @@
+Teste Lógico no Início
+
+    while (condição) {
+        bloco
+    }
+
+Teste Lógico no Final
+
+    do {
+        bloco
+    } while (condição)
