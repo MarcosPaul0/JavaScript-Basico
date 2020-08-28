@@ -1,0 +1,33 @@
+body {
+    font: normal 16pt Arial;
+    text-align: center;
+    background-color: rgb(134, 112, 255);
+    color: white;
+}
+
+section {
+    color: black;
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    border-radius: 40px;
+    padding: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.788);
+}
+
+#num {
+    width: 60px;
+    height: 23px;
+}
+
+input {
+    border: solid 1px;
+    border-radius: 20px;
+    height: 26px;
+    font: normal 12pt Arial;
+}
+
+footer {
+    margin-top: 10px;
+    font-style: italic;
+}
