@@ -1,4 +1,4 @@
-# JavaScript-Básico
+# JavaScript-Basico
  Anotações e exercícios básicos de JavaScript.
 
  Todo conteúdo retirado de:
