@@ -1,0 +1,4 @@
+Objetos funcionam com um array porém possui nome de posições podendo ser definidas
+Além disso um de seus componentes pode ser a chamada de uma função
+
+var objeto = {nome:'nome_pessoa', sexo:'sexo', peso:'peso', engordar(parâmetro){}}
