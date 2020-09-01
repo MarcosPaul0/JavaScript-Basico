@@ -1,10 +1,27 @@
 var array = []
 
+function biggerNum(array) {
+    var bigNum
+    for (var i = 0; i < array.length; i++) {
+        if (i == 0) {
+            bigNum = array[i];
+        } else {
+            if (bigNum < array[i]) {
+                bigNum = array[i]
+            }
+        }
+    }
+
+    return bigNum
+}
+
 function smallerNum(array) {
     var smallNum
     for (var i = 0; i < array.length; i++) {
-        for (var j = 1; j < array.length; j++) {
-            if (array[i] < array[j]) {
+        if (i == 0) {
+            smallNum = array[i];
+        } else {
+            if (smallNum > array[i]) {
                 smallNum = array[i]
             }
         }
@@ -55,10 +72,9 @@ function add() {
 
 function confirm() {
     var text = document.getElementById('down')
-    array.sort()
 
     text.innerHTML = `<p>O número de valores digitados foi ${array.length}</p>
-    <p>O maior número informado foi ${array[array.length - 1]}</p>
+    <p>O maior número informado foi ${biggerNum(array)}</p>
     <p>O menor número informado foi ${smallerNum(array)}</p>
     <p>A soma de todos os valores é ${sumNum(array)}</p>
     <p>A média dos valores é de ${meanNum(array)}</p>`

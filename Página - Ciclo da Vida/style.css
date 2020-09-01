@@ -25,6 +25,11 @@ input#ano {
     width: 60px;
 }
 
+#img {
+    width: 450px;
+    height: 540px;
+}
+
 footer {
     margin-top: 20px;
     font-size: 12pt;
