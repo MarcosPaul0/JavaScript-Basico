@@ -1,5 +1,6 @@
 # JavaScript Básico
- Minha primeira interação com JavaScript;.
+ Minha primeira interação com JavaScript.
+ 
  Este repositório contém anotações e exercícios básicos de JavaScript.
 
  Conteúdo retirado e aprendido de:
